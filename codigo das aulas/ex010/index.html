@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Um pouco sobre links</h1>
+    <p>Para entender sobre links precisamos entender também sobre como funciona a busca realizada pelo google por exemplo.
+    <br>Quando voce pesquisa algo no google ele vai percorrer todas as paginas que estão no seu indice, vai procurar pela palavra chave que você pesquisou em titulos ou na URL, vai procurar por sinonimos da palavra no seu site, quantas vezes a palavra chave aparece. Aqui entra a importancia de saber usar os títulos e a hora certa e onde colocar eles para que tudo isso favoreça o seu site. </p></br>
+    <h1>Usando links externos</h1>
+    <p>
+        <strong>O que é um link externo??</strong>
+    <br>Um link que vai apontar para um site externo, um site diferente do que o que está sendo usado.</br>
+    </p>
+    <p>Você pode acessar o meu <a href="https://github.com/nataliaanair/" target="_parent">repositório público no GitHub</a></p>
+
+    Para realizar o processo demonstrado acima basta seguir esse passo a passo;
+    <p>
+        <ol type="1">
+            <li>Aqui voce vai colocar o texto que deseja ficar antes do link, ex:<q>Você pode acessar o meu</q> </li>
+            <li>Logo depois irá adcionar a seguinte tag &lt;a&gt;</li>
+            <li>automaticamente a tag &lt;a&gt; vai ficar dessa forma &lt;a href="link externo de sua esscolha"&gt;</li> 
+            <li>Resto do texto caso queira algo mais.</li>
+            <li>Fechar a tag &lt;/a&gt;</li>
+        </ol>
+    </p>
+    <ul><li>A tag &lt;a&gt; e &lt;/a&gt; serve como âncora e automaticamente vai inserir o href que vai ser aonde você vai colocar a URL do site desejado entre as aspas duplas.</li>
+    <li>Ao clicar no hiperlink o conteúdo que estava sendo exibido deixou de sesr exibido e uma nova pagina foi aberta no lugar na antiga, fazendo com que o usuário saia do nosso sites e vá para outro. Para controlar onde o site de destino, ou seja o hiperlink, vai abrir podemos o usar o tributo <em>target</em> que suporta os seguintes valores; </li>
+    <ul type="square">
+    <p>
+        <li><strong>_blank:</strong> Vai abrir o link em uma nova janela em branco.</li>
+        <li><strong>_self:</strong> Vai abrir o link na janela ou frame atual (padrão).</li>
+    </p>
+    </ul>
+    </ul>
+    <h1>Links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html"> segunda página</a></p>
+    <p>A passo de como colocar link interno;</p>
+    &lt;a href="pag002.html"&gt; segunda página&lt;/a&gt;
+    <p>Voce também pode acessar a nossa <a href="noticias/pag003.html">página de noticias</p></a>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="#">Baixar o livro em PDF</a></li>
+        <li><a href="livros/ISSUU_ParaTodosOsGarotosQueJaAmei (1).pdf">Livro compactado em ZIP</a></li>
+
+    </ul>
+</body>
+</html>
